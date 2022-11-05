@@ -18,7 +18,7 @@ export default function StyledJSX() {
   return (
     <div>
       <ParentComponent>
-        <ChildComponent className={`child ${stylesChildren.className}`} />
+        <ChildComponent bgColor="blue" className={`child ${stylesChildren.className}`} />
         <ChildComponent className={`child ${stylesChildren.className}`} />
         <ChildComponent className={`child ${stylesChildren.className}`} />
         <ChildComponent className={`child ${stylesChildren.className}`} />
