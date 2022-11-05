@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import PostForQueryTest from "../pages/posts/post-for-query-test";
+import PostForQueryTest from "../pages/post-for-query-test";
 
 const useRouter = jest.spyOn(require("next/router"), "useRouter");
 
