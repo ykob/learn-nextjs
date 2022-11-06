@@ -8,6 +8,8 @@ const ChildComponent = (props) => {
         .block {
           background-color: ${bgColor};
         }
+      `}</style>
+      <style jsx>{`
         .label {
           color: #fff;
         }
